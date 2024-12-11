@@ -1,0 +1,44 @@
+ #type conversion
+num=25
+print(type(num))
+num1=3.35
+num=num+num1
+print(num)
+print(type(num))
+str='100'
+print(str)
+nums=int(str)
+print(type(str))
+print(nums)
+print(type(nums))
+#convert list to set 
+list=[1,2,3,4,5,55,4,1,2,3]
+print(list)
+print(type(list))
+set1=set(list)
+print(set1)
+print(type(set1))
+fl=3.14
+num1=int(fl)
+print(fl)
+print(type(fl))
+print(num1)
+print(type(num1))
+num=25
+print(type(num))
+num2=3.35
+print(type(num2))
+num=num+num2
+print(num)
+print(type(num))
+# using functions
+str='211'
+print(type(str))      
+num=int(str)
+print(num)
+print(type(num))
+list={1,2,55,4,1,3,2}
+print(list)
+set1=set(list)
+print(set1)
+print(type(set1))
