@@ -22,7 +22,7 @@ print(r1)
 print(r2)
 print(r3)
 print("*************************")
-a = False or True
+a = not (False and True)
 if a:
     print("If Block")
     print("Woohoo!")
