@@ -57,11 +57,11 @@ for i in range(nt):
   print(sum)
   x=y
   y=sum
-# 5 to findhow many vowels in name and print
+# 5 to find how many vowels in name and print
 print("************")
 a="amita"
 s=0
-list=['a','e','i','o','u']
+list=['a','e','i','o','u','A','E','I','O','U']
 for i in a:
     if (i in list):
         print(i)

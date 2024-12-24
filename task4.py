@@ -1,4 +1,4 @@
-To print datatype of variables
+#To print datatype of variables
 b=55.5
 print(b,type(b))
 a=12
@@ -31,11 +31,11 @@ t=((F-32)*5)/9
 f=(9*T+160)/5
 print("Temperature in celcius=",t)
 print("Temperature in fahrenite=",f)
-Condition flow
-Check number is even or odd
+#Condition flow
+#Check number is even or odd
 num=int(input("Enter any number"))
 print(num,"is Even" if num%2==0 else "is Odd")
-To check given character is vowel or consonant
+#To check given character is vowel or consonant
 vo={'a','e','i','o','u','A','E','I','O','U'}
 l=input("enter a character  ")
 if(l in vo ):
@@ -44,7 +44,7 @@ elif(l==' '):
             print("enter character")
 else:
     print("Consonant")
-find what grade estudent got
+#find what grade estudent got
 marks=int(input("Enter marks of student"))
 if(90<=marks<=100):
     print("Grade A")
